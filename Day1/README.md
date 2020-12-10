@@ -1,5 +1,8 @@
 # Day 1: Report Repair
 
+[Advent of Code website page (original source)](https://adventofcode.com/2020/day/1)
+[Pared down original HTML page](Day1_AdventofCode2020.html)
+
 ---
 
 ## Part 1
