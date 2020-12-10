@@ -5,9 +5,7 @@ preambleSize = 25
 # inputFile = open("day9_exampleinput.txt", "r")
 # preambleSize = 5
 
-numList = []
-for numStr in inputFile.read().split():
-    numList.append(int(numStr))
+numList = [int(numStr) for numStr in inputFile.readlines()]
 
 # Part 1
 preambleNums = numList[:preambleSize]
