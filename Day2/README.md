@@ -1,6 +1,7 @@
 # Day 2: Password Philosophy
 
 [Advent of Code website page (original source)](https://adventofcode.com/2020/day/2)
+
 [Pared down original HTML page](Day2_AdventofCode2020.html)
 
 ---
