@@ -34,7 +34,7 @@ Your puzzle answer was `416`.
 
 ---
 
-## Part Two
+## Part 2
 
 While it appears you validated the passwords correctly, they don't seem to be what the Official Toboggan Corporate Authentication System is expecting.
 
