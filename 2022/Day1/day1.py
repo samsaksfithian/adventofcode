@@ -1,16 +1,25 @@
-# from itertools import combinations
-# from pathlib import Path
-
 with open("day1_input.txt", "r") as inputFile:
-    elfPacks = inputFile.read().split("\n\n")
+    elfPacks = [
+        [int(cal) for cal in elf.splitlines()] for elf in inputFile.read().split("\n\n")
+    ]
 
+elfCalTotals = [sum(pack) for pack in elfPacks]
 
-print(elfPacks[0])
-# with open('the-zen-of-python.txt') as f:
-#     [print(line) for line in f.readlines()]
-# allWarmUps = Path("warmups.txt").read_text().split("\n\n")
+# Part 1, find with most
+elfWithMost = -1
+maxCals = 0
+for idx, packSum in enumerate(elfCalTotals):
+    if packSum > maxCals:
+        maxCals = packSum
+        elfWithMost = idx
+print(f"Part 1: Elf #{elfWithMost + 1} has most total ({maxCals})")
 
+# Part 2, find top 3
+sortedCalTotals = elfCalTotals[:]
+sortedCalTotals.sort(reverse=True)
 
-# Part 1
-
-# Part 2
+numNeeded = 3
+topTotals = sortedCalTotals[:numNeeded]
+print(
+    f"Part 2: Top {numNeeded} elves are carrying {', '.join(map(str, topTotals))} cals, Total = {sum(topTotals)}"
+)
