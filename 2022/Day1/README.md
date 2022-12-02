@@ -1,9 +1,9 @@
 # Day 1: Calorie Counting
 
-[Advent of Code website page (original source)](https://adventofcode.com/2022/day/1)
-[Pared down original HTML page](Day1_AdventofCode2022.html)
-[Input file](day1_input.txt)
-[Original puzzle input file link](https://adventofcode.com/2022/day/1/input)
+- [Advent of Code website page (original source)](https://adventofcode.com/2022/day/1)
+- [Pared down original HTML page](Day1_AdventofCode2022.html)
+- [Input file](day1_input.txt)
+- [Original puzzle input file link](https://adventofcode.com/2022/day/1/input)
 
 ---
 
